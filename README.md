@@ -3,8 +3,8 @@
 ## Description
 TOP - Recursion project  
 
-## Run
-Clone and run files directly using Node.js
+## Live
+https://replit.com/@jundran/recursion#odin/merge.js
 
 ## Project Requirements (odin directory)
 https://www.theodinproject.com/lessons/javascript-recursion

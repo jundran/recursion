@@ -1,5 +1,5 @@
 // Write a function that sums squares of numbers in list that may contain more lists
-function sumSquares(array) {
+function sumSquares (array) {
 	let total = 0
 	for(item of array) {
 		// console.log(item)

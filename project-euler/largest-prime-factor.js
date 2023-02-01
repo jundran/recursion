@@ -3,7 +3,7 @@
 function largestPrimeFactor (n) {
 	console.log('N is:', n)
 	if (isPrime(n)) return n
-	// n divided by its smallest prime factor returns a smaller number that has the same largest prime factor. This allows for an efficient recursive solution when the initial n is very large.
+	// n divided by its smallest prime factor returns a smaller number that has the same largest prime factor. This allows for an efficient recursive solution, especially when the initial n is very large.
 	return largestPrimeFactor(n / smallestPrimeFactor(n))
 }
 
